@@ -4,13 +4,18 @@
     </head>
     <body> 
          <script>
-            var sex = 'F', age=10;
+            var sex = 'M', age=10;
 
-            if (sex==='M' || age>=18){
+            var male;
 
-                console.log('Ok');
+            if (sex==='M'){
+
+                male=true;
+            } else {
+
+                male=false;
             }
-
+            console.log(male);
             
          </script>
     </body>
